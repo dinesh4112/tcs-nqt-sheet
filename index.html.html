@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS NQT Striver Sheet Progress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .progress-container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 25px;
+            margin-bottom: 20px;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 30px;
+            background-color: #4CAF50;
+            border-radius: 25px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .section-title {
+            font-size: 20px;
+            color: #444;
+            margin-top: 20px;
+        }
+
+        .checklist {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 10px;
+            margin: 5px 0;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checklist input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>TCS NQT Striver Sheet</h1>
+    <h2>Track your progress!</h2>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar">0%</div>
+    </div>
+
+    <!-- Arrays Section -->
+    <div class="section">
+        <h2 class="section-title">Problems on Arrays</h2>
+        <ul class="checklist" id="arrayProblems">
+            <li><input type="checkbox" class="problem-checkbox"> Find the smallest number in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find the largest number in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Second Smallest and Second Largest element in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Reverse a given array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Count frequency of each element in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Rearrange array in increasing-decreasing order</li>
+            <li><input type="checkbox" class="problem-checkbox"> Calculate sum of the elements of the array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Rotate array by K elements - Block Swap Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Average of all elements in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find the median of the given array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Remove duplicates from a sorted array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Remove duplicates from unsorted array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Adding Element in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find all repeating elements in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find all non-repeating elements in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find all symmetric pairs in array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Maximum product subarray in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Replace each element of the array by its rank in the array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Sorting elements of an array by frequency</li>
+            <li><input type="checkbox" class="problem-checkbox"> Rotation of elements of array - left and right</li>
+            <li><input type="checkbox" class="problem-checkbox"> Finding equilibrium index of an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Finding Circular rotation of an array by K positions</li>
+            <li><input type="checkbox" class="problem-checkbox"> Sort an array according to the order defined by another array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Search an element in an array</li>
+            <li><input type="checkbox" class="problem-checkbox"> Check if Array is a subset of another array or not</li>
+        </ul>
+    </div>
+
+    <!-- Number Section -->
+    <div class="section">
+        <h2 class="section-title">Problems on Numbers</h2>
+        <ul class="checklist" id="numberProblems">
+            <li><input type="checkbox" class="problem-checkbox"> Check if a number is palindrome or not</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find all Palindrome numbers in a given range</li>
+            <li><input type="checkbox" class="problem-checkbox"> Check if a number is prime or not</li>
+            <li><input type="checkbox" class="problem-checkbox"> Prime numbers in a given range</li>
+            <li><input type="checkbox" class="problem-checkbox"> Check if a number is Armstrong number or not</li>
+            <li><input type="checkbox" class="problem-checkbox"> Check if a number is perfect number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Even or Odd</li>
+            <li><input type="checkbox" class="problem-checkbox"> Check if a given number is positive or negative</li>
+            <li><input type="checkbox" class="problem-checkbox"> Sum of first N natural numbers</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find Sum of AP Series</li>
+            <li><input type="checkbox" class="problem-checkbox"> Program to find sum of GP Series</li>
+            <li><input type="checkbox" class="problem-checkbox"> Greatest of two numbers</li>
+            <li><input type="checkbox" class="problem-checkbox"> Greatest of three numbers</li>
+            <li><input type="checkbox" class="problem-checkbox"> Leap Year or not</li>
+            <li><input type="checkbox" class="problem-checkbox"> Reverse digits of a number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Maximum and Minimum digit in a number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Print Fibonacci up to Nth Term</li>
+            <li><input type="checkbox" class="problem-checkbox"> Factorial of a number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Power of a number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Factors of a given number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Print all prime factors of the given number</li>
+            <li><input type="checkbox" class="problem-checkbox"> Check if a number is a strong number or not</li>
+            <li><input type="checkbox" class="problem-checkbox"> GCD of two numbers</li>
+            <li><input type="checkbox" class="problem-checkbox"> LCM of two numbers</li>
+        </ul>
+    </div>
+
+    <!-- Number System Section -->
+    <div class="section">
+        <h2 class="section-title">Problems on Number System</h2>
+        <ul class="checklist" id="numberSystemProblems">
+            <li><input type="checkbox" class="problem-checkbox"> Convert Binary to Decimal</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert Binary to Octal</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert Decimal to Binary</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert Decimal to Octal</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert Octal to Binary</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert Octal to Decimal</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert numbers to words</li>
+        </ul>
+    </div>
+
+    <!-- Sorting Section -->
+    <div class="section">
+        <h2 class="section-title">Problems on Sorting</h2>
+        <ul class="checklist" id="sortingProblems">
+            <li><input type="checkbox" class="problem-checkbox"> Bubble Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Selection Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Insertion Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Quick Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Merge Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Heap Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Radix Sort Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Counting Sort Algorithm</li>
+        </ul>
+    </div>
+
+    <!-- Searching Section -->
+    <div class="section">
+        <h2 class="section-title">Problems on Searching</h2>
+        <ul class="checklist" id="searchingProblems">
+            <li><input type="checkbox" class="problem-checkbox"> Linear Search Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Binary Search Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Jump Search Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Interpolation Search Algorithm</li>
+            <li><input type="checkbox" class="problem-checkbox"> Exponential Search Algorithm</li>
+        </ul>
+    </div>
+
+    <!-- Strings Section -->
+    <div class="section">
+        <h2 class="section-title">Problems on Strings</h2>
+        <ul class="checklist" id="stringProblems">
+            <li><input type="checkbox" class="problem-checkbox"> Check if a given string is palindrome or not</li>
+            <li><input type="checkbox" class="problem-checkbox"> Count number of vowels, consonants, spaces in String</li>
+            <li><input type="checkbox" class="problem-checkbox"> Remove all vowels from the string</li>
+            <li><input type="checkbox" class="problem-checkbox"> Reverse a String</li>
+            <li><input type="checkbox" class="problem-checkbox"> Sum of the numbers in a String</li>
+            <li><input type="checkbox" class="problem-checkbox"> Remove characters from first string present in the second string</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find Non-repeating characters of a String</li>
+            <li><input type="checkbox" class="problem-checkbox"> Find all anagrams in a string</li>
+            <li><input type="checkbox" class="problem-checkbox"> Longest Palindromic Substring</li>
+            <li><input type="checkbox" class="problem-checkbox"> Convert a String to uppercase and lowercase</li>
+        </ul>
+    </div>
+
+    <!-- JavaScript to handle progress bar and checkbox functionality -->
+    <script>
+        // Select all the checkboxes
+        const checkboxes = document.querySelectorAll('.problem-checkbox');
+        const progressBar = document.getElementById('progressBar');
+        const totalProblems = checkboxes.length;
+
+        // Function to update the progress bar
+        function updateProgress() {
+            const checkedCount = document.querySelectorAll('.problem-checkbox:checked').length;
+            const progressPercentage = (checkedCount / totalProblems) * 100;
+            progressBar.style.width = progressPercentage + '%';
+            progressBar.textContent = Math.round(progressPercentage) + '%';
+        }
+
+        // Add event listeners to checkboxes
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateProgress);
+        });
+    </script>
+
+</body>
+</html>
